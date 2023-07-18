@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6470471600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test if the flights are available from any two destination",
+        "description": "",
+        "id": "ticket-booking-application;test-if-the-flights-are-available-from-any-two-destination",
+        "after": [
+          {
+            "result": {
+              "duration": 794995400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180276400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the ticket booking website",
+            "match": {
+              "location": "AirlineSteps.iAmOnTheTicketBookingWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71945100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the text",
+            "match": {
+              "location": "AirlineSteps.iVerifyTheText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295817600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for flights from Abu Dhabi",
+            "match": {
+              "location": "AirlineSteps.iSearchForFlightsFromAbuDhabi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 398680600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for flights to Accra",
+            "match": {
+              "location": "AirlineSteps.iSearchForFlightsToAccra()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629332400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on show flights",
+            "match": {
+              "location": "AirlineSteps.iClickOnShowFlights()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Ticket Booking Application",
+    "description": "",
+    "id": "ticket-booking-application",
+    "keyword": "Feature",
+    "uri": "airline.feature"
+  }
+]
